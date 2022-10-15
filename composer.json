@@ -1,0 +1,29 @@
+{
+    "name": "arcostasi/php-fsm",
+    "description": "Using Finite State Machine in PHP",
+    "type": "project",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Anderson Costa",
+            "email": "arcostasi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4",
+        "jagarsoft/php-state-machine": "^2.0"
+    },
+    "scripts": {
+        "start" : [
+            "php src/PhpStateMachine.php"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Arcostasi\\PhpStateMachine\\": "src/",
+            "Arcostasi\\PhpStateMachine\\Stubs\\": "src/Stubs/"
+        }
+    }
+}
