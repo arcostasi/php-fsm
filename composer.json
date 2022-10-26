@@ -13,7 +13,8 @@
     "minimum-stability": "stable",
     "require": {
         "php": "^7.4",
-        "jagarsoft/php-state-machine": "^2.0"
+        "jagarsoft/php-state-machine": "^2.0",
+        "ext-mbstring": "*"
     },
     "scripts": {
         "start" : [
